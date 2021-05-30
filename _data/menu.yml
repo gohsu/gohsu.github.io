@@ -2,37 +2,54 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: currently
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
-
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
-  - title: rss
-    url: feed.xml
-  
-  - title: another list
+      - title: "data science intern at <a href='https://wastelabs.co'>Waste Labs</a> ♻️"
+      
+  - title: previously
     entries:
-      - title: with subitems
+      - title: "researched on... 👩‍🏫"
+        url: research
         entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
+          - title: urban studies at McGill's Institute for Health & Social Policy
+          - title: algorithm audit at Stanford University's Human-Computer Interaction Research Group
+          - title: mobile contact tracing at Concordia University's Risk Logics Research Group
+          - title: transparency in government data at McGill's DemoTIP Research Group
+      - title: "hard-wordking econ undergrad 🤓"
+        url: school
+      - title: content marketing intern at content.co (nka Hire Digital)
+        
+
+  - title: links
     entries:
-      - title: to edit this menu, edit _data/menu.yml file
+      - title: github
+        url: https://github.com/gohsu
+      - title: linkedin
+        url: https://www.linkedin.com/in/sugoh/
+      - title: google scholar
+        url: https://scholar.google.com/citations?user=VrEI0SIAAAAJ&hl=en
+      - title: twitter
+        url: https://www.twitter.com/gohsu_
+  
+  - title: dossier
+    url: dossier
+    entries:
+      - title: a list of articles/podcast I like very much
+
+  # - title: all posts
+  #   post_list:
+  #     limit: 5
+  #     show_more: true
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  # - title: rss
+  #   url: feed.xml
+  
